@@ -1,0 +1,1 @@
+{"version":3,"file":"generate_license_key.js","sourceRoot":"","sources":["../../utils/generate_license_key.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,aAAa,CAAA;AAEzC,MAAM,UAAU,kBAAkB;IAChC,MAAM,GAAG,GAAG,WAAW,CAAC,EAAE,CAAC,CAAC,QAAQ,CAAC,KAAK,CAAC,CAAA;IAC3C,OAAO,GAAG,CAAA;AACZ,CAAC"}
