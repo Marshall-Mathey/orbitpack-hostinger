@@ -46,6 +46,8 @@ const CreateGameScheduleController = () => import('#controllers/admin/game_sched
 const UpdateGameScheduleController = () => import('#controllers/admin/game_schedules/update_game_schedule_controller');
 const DeleteGameScheduleController = () => import('#controllers/admin/game_schedules/delete_game_schedule_controller');
 const SaveResultController = () => import('#controllers/admin/results/save_results_controller');
+
+router.get('/', () => { return message: "Yes ! We are online..."})
 router.post('/api/v1/activate-license', [DefaultLicenseActivationController]);
 router.post('/api/v1/activate-lifetime-license', [LifetimeLicenceController]);
 router
